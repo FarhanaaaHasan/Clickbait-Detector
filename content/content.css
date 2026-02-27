@@ -1,0 +1,28 @@
+.clickbait-badge {
+    display: inline-flex;
+    align-items: center;
+    background-color: #ef4444;
+    color: white;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-right: 8px;
+    vertical-align: middle;
+    cursor: help;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Inter', sans-serif;
+    z-index: 9999;
+    text-transform: uppercase;
+    transition: transform 0.2s;
+}
+
+.clickbait-badge:hover {
+    transform: scale(1.1);
+    background-color: #dc2626;
+}
+
+.clickbait-flagged {
+    border-left: 3px solid #ef4444 !important;
+    padding-left: 8px !important;
+}
